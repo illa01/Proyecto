@@ -1,1 +1,29 @@
+*{
+	border:1px solid black;
+}
 
+div#cabecera{
+	position:fixed;
+	background-color: hsla(136, 5%, 95%, 1.0);
+}
+
+button{
+	border-radius: 0.5em;
+	float: right;
+	margin: 1em;
+	padding: 0.5em;
+	transition: all 1s;
+}
+
+div form button:hover{
+	background-color: hsla(142, 2%, 66%, 1.0);
+}
+
+div p{
+	position: absolute;
+	background-color: transparent;
+}
+
+div#clear{
+	clear: both;
+}
